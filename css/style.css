@@ -50,7 +50,7 @@ color: #000;
 }
 /*top background*/
 .intro-header { 
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 50px; 
     padding-bottom: 50px;
     text-align: center;
     background: url('https://image.ibb.co/gDkOL7/cape_town_table_mountain_alandscape.jpg') no-repeat center center fixed;
@@ -150,7 +150,7 @@ hr.intro-divider {
   background: rgba(255, 255, 255, 0.2);
   height: 855px;
 }
-  /*self-taught*/
+  
 .container .link {
   color: rgb(255, 255, 255);
   font-weight: bold;
