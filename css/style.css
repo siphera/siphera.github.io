@@ -85,7 +85,9 @@ color: #000;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
   color: skyblue;
 }
-
+.prBars {
+    background-color: aqua;
+}
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -402,3 +404,12 @@ p.copyright {
 #tabbed-content .panel.active{
     display: block;
 }
+
+
+
+
+
+
+
+
+
