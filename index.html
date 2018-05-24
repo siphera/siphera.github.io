@@ -9,7 +9,7 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
-
+    <script src="js/portfolio.js"></script>
   
 </head>
 <body>
@@ -128,13 +128,19 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">My Portfolio.</h2>
                     <h3 id="below-section" class="section-subheading text-muted">Below you'll find some of my recent work.</h3>
-                    <h2>Front-End Projects</h2>
+<!--                    <h2>Front-End Projects</h2>-->
                     
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div id="tabbed-content">
+        <ul class="tabs">
+          <li data-target="#about" class="active">Front End Projects</li>
+          <li data-target="#contact">Back End Projects</li>
+        </ul>
+        <div class="panel active" id="about">
+          <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="https://siphera.github.io/basic-webpage/" target="_blank" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -179,10 +185,12 @@
                         <p id="small-text" class="text-muted">tested the javascript bootcamp functions with mocha</p>
                     </div>
                 </div>
-                
-                <h2>Back-End Projects</h2>
-              
-                <div class="col-md-4 col-sm-6 portfolio-item">
+
+        </div>
+                    
+                    
+        <div class="panel" id="contact">
+          <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#" target="_blank" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -226,6 +234,9 @@
                         <p id="small-text" class="text-muted">Coming soon</p>
                     </div>
                 </div>
+        </div>
+      </div>
+
             </div>
         </div>
     </section>
